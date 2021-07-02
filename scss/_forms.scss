@@ -77,11 +77,16 @@ label {
   }
 }
 
+input[type="image"] {
+  border: 1px solid $gray;
+}
+
 input[type="submit"],
 input[type="reset"],
 button {
   background: lighten($black, 5);
   color: lighten($gray, 50);
+  border: 1px solid $gray;
   cursor: pointer;
   display: inline;
   margin-bottom: $em;
@@ -106,6 +111,7 @@ input[type="submit"],
 button[type="submit"] {
   background: $blue;
   color: $white;
+  border: none;
 
   &:hover {
     background: darken($blue, 15);
