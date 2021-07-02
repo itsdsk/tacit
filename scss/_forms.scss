@@ -80,8 +80,8 @@ label {
 input[type="submit"],
 input[type="reset"],
 button {
-  background: darken($white, 5);
-  color: darken($gray, 25);
+  background: lighten($black, 5);
+  color: lighten($gray, 50);
   cursor: pointer;
   display: inline;
   margin-bottom: $em;
@@ -90,8 +90,8 @@ button {
   text-align: center;
 
   &:hover {
-    background: darken($white, 15);
-    color: $black;
+    background: lighten($black, 15);
+    color: $white;
   }
 
   &[disabled] {
@@ -140,6 +140,8 @@ select,
 textarea {
   border: 1px solid $gray;
   padding: .3 * $em .35 * $em;
+  color: $white;
+  background: lighten($black, 25);
 }
 
 input[type="checkbox"],

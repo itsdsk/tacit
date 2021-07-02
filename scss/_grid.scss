@@ -42,8 +42,8 @@ html {
 
 body {
   @extend %sans-serif;
-  background: $white;
-  color: lighten($black, 10);
+  background: $darkgrey;
+  color: $white;
   padding: 2 * $spacing;
 }
 
@@ -80,8 +80,8 @@ footer {
 }
 
 article {
-  background: $white;
-  border: 1px solid lighten($black, 85);
+  background: lighten($black, 10);
+  border: 1px solid lighten($black, 20);
 }
 
 nav {
