@@ -43,15 +43,15 @@ table {
   display: table;
   width: 100%;
 
-  @media all and (max-width: 1024px) {
-    display: none;
-  }
+  // @media all and (max-width: 1024px) {
+  //   display: none;
+  // }
 
-  thead {
-    @media all and (max-width: 1024px) {
-      display: none;
-    }
-  }
+  // thead {
+  //   @media all and (max-width: 1024px) {
+  //     display: none;
+  //   }
+  // }
 
   tr {
     border-bottom-width: .12 * $em;
@@ -65,19 +65,19 @@ table {
       overflow: hidden;
       padding: .3 * $em .2 * $em;
 
-      @media all and (max-width: 1024px) {
-        border: 0;
-        display: inline-block;
-      }
+      // @media all and (max-width: 1024px) {
+      //   border: 0;
+      //   display: inline-block;
+      // }
     }
 
-    @media all and (max-width: 1024px) {
-      display: inline-block;
-      margin: .6 * $em 0;
-    }
+    // @media all and (max-width: 1024px) {
+    //   display: inline-block;
+    //   margin: .6 * $em 0;
+    // }
   }
 
-  @media all and (max-width: 1024px) {
-    display: inline-block;
-  }
+  // @media all and (max-width: 1024px) {
+  //   display: inline-block;
+  // }
 }
