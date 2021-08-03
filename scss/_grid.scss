@@ -65,7 +65,7 @@ address {
 section {
   margin-left: auto;
   margin-right: auto;
-  width: 75 * $spacing;
+  width: 50 * $spacing;
 }
 
 aside {
@@ -85,26 +85,15 @@ article {
 }
 
 nav {
-  text-align: center;
-
   ul {
     list-style: none;
     margin-left: 0;
-    text-align: center;
+    margin-bottom: 4 * $em;
 
     li {
-      display: inline-block;
-      margin-left: .5 * $spacing;
-      margin-right: .5 * $spacing;
-      vertical-align: middle;
-
-      &:first-child {
-        margin-left: 0;
-      }
-
-      &:last-child {
-        margin-right: 0;
-      }
+      font-size: 1.4 * $em;
+      line-height: 1.9 * $em;
+      margin-bottom: $em;
     }
   }
 }
@@ -115,6 +104,7 @@ ul {
 }
 
 li {
+
   dl,
   ol,
   ul {
@@ -137,7 +127,7 @@ dd {
     border-bottom: (.06 * $em) solid $gray;
   }
 
-  + dt {
+  +dt {
     border-top: (.06 * $em) solid $gray;
     padding-top: .5 * $em;
   }
